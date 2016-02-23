@@ -1,0 +1,28 @@
+{
+  "name": "webnn",
+  "version": "1.0.0",
+  "description": "GPU Powered Neural Network for every Browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:waylonflinn/webnn.git"
+  },
+  "keywords": [
+    "GPU",
+    "neural network",
+    "convolution",
+    "convolutional"
+  ],
+  "author": "waylonflinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waylonflinn/webnn/issues"
+  },
+  "homepage": "https://github.com/waylonflinn/webnn#readme",
+  "dependencies": {
+    "weblas": "^0.8.0"
+  }
+}
