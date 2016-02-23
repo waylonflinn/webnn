@@ -4,7 +4,7 @@
   "description": "GPU Powered Neural Network for every Browser",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "browserify test/*.js | testling"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/waylonflinn/webnn#readme",
   "dependencies": {
-    "weblas": "^0.8.0"
+    "weblas": "^0.9.0"
   }
 }
