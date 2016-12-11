@@ -4,7 +4,7 @@
   "description": "GPU Powered Neural Network for every Browser",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test/*.js | testling"
+    "test": "browserify test/*.js | testling -x $npm_config_browser"
   },
   "repository": {
     "type": "git",
