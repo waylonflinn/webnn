@@ -1,1 +1,4 @@
-var weblas = require('weblas');
+
+module.exports = {
+	"Neuron" : require('neuron')
+}
