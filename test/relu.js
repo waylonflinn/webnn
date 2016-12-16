@@ -41,7 +41,6 @@ function generateTestCase(prefix, n, k){
 		// directory containing matrix data files for current test
 		var testDirectory = dataDirectory + prefix + '/';
 
-		//console.log(testDirectory);
 		// load matrices from files
 		weblas.test.load(testDirectory, matrixFiles, function(err, matrices){
 
@@ -64,8 +63,6 @@ function generateTestCase(prefix, n, k){
 				throw new Error("malformed data");
 			}
 
-			//console.log(m + "x" + k + " times " + k + "x" + n);
-
 			var relu = new ReLU();
 			var inputT = new weblas.pipeline.Tensor([n, k], input);
 
@@ -82,7 +79,7 @@ function generateTestCase(prefix, n, k){
 	};
 }
 
-directory = "0001";//String("0000" + (i + 1)).slice(-4);
+directory = "0001";
 
 // in [1,4096]
 // out [1,999]
