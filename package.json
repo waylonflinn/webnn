@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/waylonflinn/webnn#readme",
   "dependencies": {
+    "type-detect": "^4.0.0",
     "weblas": "^0.9.0"
   },
   "devDependencies": {
