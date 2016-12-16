@@ -110,7 +110,6 @@ var test = {
 	N : 4096,
 	K : 999
 }
-// k = dims[1]
 
 var testName = "neuron: " + test.N + " x " + test.K;
 
