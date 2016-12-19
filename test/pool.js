@@ -33,7 +33,7 @@ tape("pool: 2 x 2 x 4", function(t){
 
 });
 
-var dataDirectory = 'test/data/relu/',
+var dataDirectory = 'test/data/pool/',
 	testFile = 'small.json';
 
 var matrixFiles = ['in.arr', 'out.arr'];
@@ -96,11 +96,11 @@ directory = "0001";
 // in [1,4096]
 // out [1,999]
 var test = {
-	M :
-	N : ,
-	C : ,
-	size : ,
-	stride :
+	M : 55,
+	N : 55,
+	C : 96,
+	size : 3,
+	stride : 2
 }
 
 var testName = "pool: " + test.M + " x " + test.N + " x " + test.C;
