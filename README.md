@@ -7,4 +7,4 @@ Browser based Deep Neural Network training and inference powered by weblas.
 Want to see more happen here?
 Contribute on
 
-[![Patreon](https://s3.amazonaws.com/patreon_public_assets/patreon_negative.svg)](https://patreon.com/waylonflinn)!
+[![Patreon](https://s3.amazonaws.com/patreon_public_assets/toolbox/patreon.png)](https://patreon.com/waylonflinn)
