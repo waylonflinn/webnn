@@ -1,6 +1,6 @@
 # webnn
 
-Neural Network Inference powered by weblas.
+Browser based Deep Neural Network training and inference powered by weblas.
 
 # Donations
 
