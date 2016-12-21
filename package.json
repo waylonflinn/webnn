@@ -1,7 +1,7 @@
 {
   "name": "webnn",
-  "version": "1.0.0",
-  "description": "GPU Powered Neural Network for every Browser",
+  "version": "2.0.1",
+  "description": "GPU Powered Neural Networks for every Browser",
   "main": "index.js",
   "scripts": {
     "test": "browserify test/*.js | testling -x $npm_config_browser"
