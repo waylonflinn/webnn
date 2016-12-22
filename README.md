@@ -9,11 +9,11 @@ Inference is currently implemented for the following layer types:
 * Pooling (max)
 * ReLU
 
-Support for more layers is planned, including:
+Support for more layers is in the works, including:
 * Pooling (avg)
 * Normalization (local and batch)
 
-Support for training (via backpropagation) is also planned.
+Support for training (via backpropagation) is also coming up.
 
 # Donations
 
