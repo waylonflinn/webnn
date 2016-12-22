@@ -1,6 +1,6 @@
 # webnn
 
-Browser based Deep Neural Network training and inference powered by weblas.
+Browser based Deep Neural Network training and inference powered by [weblas](https://github.com/waylonflinn/weblas/).
 
 Inference is currently implemented for the following layer types:
 
@@ -13,7 +13,7 @@ Support for more layers is in the works, including:
 * Pooling (avg)
 * Normalization (local and batch)
 
-Support for training (via backpropagation) is also coming up.
+Support for training (via backpropagation) is on the drawing board.
 
 # Donations
 
