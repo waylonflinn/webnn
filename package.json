@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "arrayloader": "^1.1.2",
+    "async": "^2.1.4",
     "tape": "^4.4.0"
   }
 }
