@@ -92,7 +92,9 @@ function generateTestCase(prefix, M, N, C, size, count, stride, margin){
 
 				// adapted from weblas.sdwns test
 				//result = weblas.sdwns(2, 2, 4, 2, 2, X);
-				var result = conv.forward(input, M, N, C).transfer();
+				var result = conv.forward(input, M, N, C);
+
+				result = result.transfer();
 			}
 			catch(ex){
 				t.assert(false, ex);
@@ -104,10 +106,15 @@ function generateTestCase(prefix, M, N, C, size, count, stride, margin){
 	};
 }
 
-directory = "0001";
+directory = "0004";
 
 // in [27,1296]
 // out [27,3456]
+
+// in [27,1296]
+// bias [128, 1]
+// kernels [1200,128]
+// out []
 var test = {
 	M : 27,
 	N : 27,
