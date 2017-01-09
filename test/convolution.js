@@ -5,8 +5,8 @@ var Convolution = require('../lib/convolution.js'),
 
 weblas.test = require('weblas/lib/test');
 
-var RTOL = 1e-03,
-	ATOL = 1e-04;
+var RTOL = 1e-05,
+	ATOL = 1e-12;
 /*
 tape("convolution: 2 x 2 x 4", function(t){
 	t.plan(1);
@@ -88,10 +88,8 @@ function generateTestCase(prefix, M, N, C, size, count, stride, margin){
 			//var M = 2, N = 2, C = 4;
 
 			try{
-				//var result = relu.forward(inputT).transfer();
 
 				// adapted from weblas.sdwns test
-				//result = weblas.sdwns(2, 2, 4, 2, 2, X);
 				var result = conv.forward(input, M, N, C);
 
 				result = result.transfer();
@@ -106,7 +104,7 @@ function generateTestCase(prefix, M, N, C, size, count, stride, margin){
 	};
 }
 
-directory = "0004";
+directory = "0001";
 
 // in [27,1296]
 // out [27,3456]
